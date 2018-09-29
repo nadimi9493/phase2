@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="index.css">
+    <link rel="manifest" href="fevicon\manifest.json">
   </head>
   <body>
   <form class=""  >
@@ -116,4 +117,12 @@ ananthapur
   <script type="text/javascript" src="index.js">
 
   </script>
+  <script>
+  if ('serviceWorker' in navigator){
+    navigator.serviceWorker.register("sw.js");
+    console.log("serviceWorker register successfully..");
+  }
+  err=>{
+    console.log("error");
+  }
 </html>

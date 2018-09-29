@@ -154,7 +154,8 @@ request.onsuccess=e=>{
   );
   console.log("sucess.......!");
 }
-
+localStorage.setItem("name",name);
+window.open("resume.htm","_self");
 }
 
 

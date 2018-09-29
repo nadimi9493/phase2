@@ -1,2 +1,2 @@
-# phase2
-indexedDB
+# indexedDatabase
+creating indexed data base
